@@ -21,9 +21,9 @@ public class EnemyManager : MonoBehaviour
     void Update()
     {
         // transform.position = Vector2.MoveTowards(
-        //     transform.position,
-        //     targetPoint.position,
-        //     speed * Time.deltaTime
+            // transform.position,
+            // targetPoint.position,
+            // speed * Time.deltaTime
         // );
 
         if (Vector2.Distance(transform.position, targetPoint.position) < 0.1f)
